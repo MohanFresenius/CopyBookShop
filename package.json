@@ -20,7 +20,8 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-books": "cds watch --open books/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-books": "cds watch --open books/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-authors": "cds watch --open authors/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {
@@ -29,6 +30,7 @@
     }
   },
   "sapux": [
-    "app/books"
+    "app/books",
+    "app/authors"
   ]
 }
